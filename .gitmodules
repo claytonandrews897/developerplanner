@@ -1,0 +1,3 @@
+[submodule "crispy-ocot-meme"]
+	path = crispy-ocot-meme
+	url = https://github.com/coding-boot-camp/crispy-octo-meme.git
