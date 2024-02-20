@@ -1,11 +1,10 @@
-
 $(document).ready(function () {
     // Define variables for today's date and the time right now
     let currentDay = moment().format('dddd, MMMM Do YYYY'); // Include day of the week
      // Update the text content of the #currentDay element with the current day
     $("#currentDay").text(currentDay);
     let currentTime = moment().hour();
-
+    console.log(currentDay)
     // Update elements with localStorage values
     for (key = 0; key < localStorage.length; key++){
         timeID = localStorage.key(key);
